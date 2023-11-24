@@ -1,7 +1,7 @@
 <main>
     <section class="container">
         <form class="form" [formGroup]="form">
-            <input class="form-control" placeholder="insira seu ID" formControlName="id">
+            <input class="form-control" placeholder="insira seu ID" formControlName="id" (blur)="teste()">
             <p>ID fornecido pela empresa</p>
         </form>
     </section>

@@ -8,6 +8,7 @@ import { RouterLinkActive, RouterModule } from '@angular/router';
 import { ReactiveFormsModule } from '@angular/forms';
 import { StartComponent } from './start/start.component';
 import { FormsModule} from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,6 +22,8 @@ import { FormsModule} from '@angular/forms';
     FormsModule,
     ReactiveFormsModule,
     RouterLinkActive,
+    HttpClientModule,
+   
     
   ],
   providers: [],
